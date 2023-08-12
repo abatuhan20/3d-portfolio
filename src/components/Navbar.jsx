@@ -33,7 +33,7 @@ const Navbar = () => {
           <p className='text-white text-[18px] font-bold cursor-pointer flex'>
             Arda Batuhan AYDIN &nbsp;
             <span className='sm:block hidden'>
-            |&nbsp; Front-end Dev
+            |&nbsp; Web Developer
             </span>
           </p>
         </Link>

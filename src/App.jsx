@@ -17,7 +17,7 @@ const App = () => {
       <Experience />
       <Tech />
       <Works />
-      <Feedbacks />
+      {/* <Feedbacks /> */}
       <div className='relative z-0'>
         {/* Burada 3D starlar göstericeğimden relative z-0 lazımmış*/}
         <Contact />

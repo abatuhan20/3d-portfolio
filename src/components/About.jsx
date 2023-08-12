@@ -47,9 +47,9 @@ const About = () => {
       <motion.p variants={fadeIn("", "", 0.1, 1)}
       className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-         Voluptatem tempore, iste ratione quibusdam distinctio hic quod fugiat totam fuga quam velit beatae porro illum?
-          Dignissimos veritatis suscipit nulla nobis rerum possimus quos, quo, praesentium et, hic cupiditate voluptatem corrupti unde.
+        I am a dedicated and enthusiastic computer engineering student, currently pursuing my studies in the vibrant city of Istanbul.
+          Exploring the realms of both hardware and software, I am equipping myself with a diverse skill set that allows me to bring creative ideas to life.
+            I am excited to contribute to the ever-evolving landscape of technology.
 
       </motion.p>
 

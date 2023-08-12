@@ -92,11 +92,10 @@ const Works = () => {
           variants={fadeIn("", "", 0.1, 1)}
           className='mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]'
         >
-          Lorem ipsum dolor sit amet consectetur adipisicing elit.
-           Nihil provident eum, tempora quas, rerum minima numquam nisi quam, officia deleniti ipsum?
-            Sapiente illum nesciunt quo perspiciatis.
-             Nostrum consequuntur est magni corrupti aut architecto minima blanditiis itaque error omnis?
-              Ad, quam?
+          Discover a selection of my projects featured in this section. 
+            You also have the option to access my projects using the GitHub button. 
+              Your support is greatly appreciated, so feel free to leave a star if you enjoy what you find!
+
 
         </motion.p>
 

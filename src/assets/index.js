@@ -26,9 +26,15 @@ import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+import passgen from "./passgen.png";
+import countdown from "./countdown.png";
+import movie from "./movie.png";
+import recipe from "./recipe.png";
+import githubapp from "./githubapp.png";
+import drawing from "./drawing.png";
+import unilogo from "./unilogo.png";
+import projesoft from "./projesoft.png";
+import newmind from "./newmind.png";
 
 export {
   logo,
@@ -56,7 +62,13 @@ export {
   shopify,
   starbucks,
   tesla,
-  carrent,
-  jobit,
-  tripguide,
+  passgen,
+  countdown,
+  movie,
+  recipe,
+  githubapp,
+  drawing,
+  unilogo,
+  projesoft,
+  newmind,
 };

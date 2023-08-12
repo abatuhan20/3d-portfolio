@@ -13,16 +13,16 @@ import {
     nodejs,
     mongodb,
     git,
-    figma,
-    docker,
-    meta,
-    starbucks,
-    tesla,
-    shopify,
-    carrent,
-    jobit,
-    tripguide,
     threejs,
+    passgen,
+    countdown,
+    movie,
+    recipe,
+    githubapp,
+    drawing,
+    unilogo,
+    projesoft,
+    newmind,
   } from "../assets";
   
   export const navLinks = [
@@ -45,14 +45,7 @@ import {
       title: "Web Developer",
       icon: web,
     },
-    {
-      title: "React Native Developer",
-      icon: mobile,
-    },
-    {
-      title: "Backend Developer",
-      icon: backend,
-    },
+    
     {
       title: "Content Creator",
       icon: creator,
@@ -80,10 +73,7 @@ import {
       name: "React JS",
       icon: reactjs,
     },
-    {
-      name: "Redux Toolkit",
-      icon: redux,
-    },
+  
     {
       name: "Tailwind CSS",
       icon: tailwind,
@@ -104,67 +94,48 @@ import {
       name: "git",
       icon: git,
     },
-    {
-      name: "figma",
-      icon: figma,
-    },
-    {
-      name: "docker",
-      icon: docker,
-    },
+    
   ];
   
   const experiences = [
     {
-      title: "React.js Developer",
-      company_name: "Starbucks",
-      icon: starbucks,
+      title: "Bachelor of Science in Computer Engineering",
+      company_name: "Istanbul Commerce University",
+      icon: unilogo,
       iconBg: "#383E56",
-      date: "March 2020 - April 2021",
+      date: "September 2020 - Present",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Studying a comprehensive curriculum covering hardware, software, and systems design.",
+        "Exploring programming languages such as C++, Java, and Python for various applications.",
+        "Gaining hands-on experience with microcontrollers and embedded systems.",
+        "Analyzing algorithms and data structures to optimize software performance.",
+        "Collaborating with multidisciplinary teams to solve complex engineering problems.",
+        "Participating in workshops and projects to enhance problem-solving skills.",
       ],
     },
     {
-      title: "React Native Developer",
-      company_name: "Tesla",
-      icon: tesla,
+      title: "Hardware Intern",
+      company_name: "Projesoft",
+      icon: projesoft,
       iconBg: "#E6DEDD",
-      date: "Jan 2021 - Feb 2022",
+      date: "August 2022 - September 2022",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Gained valuable insights into the e-commerce industry's hardware requirements and challenges.",
+        "Engaged in cross-functional discussions with software engineers to ensure seamless hardware-software integration.",
+        "Conducted research on emerging hardware technologies to support future product development.",
       ],
     },
     {
-      title: "Web Developer",
-      company_name: "Shopify",
-      icon: shopify,
+      title: "Web Developer Intern",
+      company_name: "NewMind",
+      icon: newmind,
       iconBg: "#383E56",
-      date: "Jan 2022 - Jan 2023",
+      date: "August 2023 - September 2023",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-    {
-      title: "Full stack Developer",
-      company_name: "Meta",
-      icon: meta,
-      iconBg: "#E6DEDD",
-      date: "Jan 2023 - Present",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "I had chance to use frameworks like React.js, Three.js, axios etc.",
+        "Expanded understanding of front-end development principles and practices through hands-on projects and learning opportunities.",
+        "Explored innovative approaches and techniques to improve website interactivity and functionality.",
+        "Adhered to established coding standards and followed version control processes to maintain a structured development environment.",
       ],
     },
   ];
@@ -198,67 +169,142 @@ import {
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "Password Generator",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "Simple password generator design. Passwords stored in local storage and can be shown if desired.",
       tags: [
         {
-          name: "react",
+          name: "HTML",
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
+          name: "CSS",
           color: "green-text-gradient",
         },
         {
-          name: "tailwind",
+          name: "JavaScript",
           color: "pink-text-gradient",
         },
       ],
-      image: carrent,
-      source_code_link: "https://github.com/",
+      image: passgen,
+      source_code_link: "https://github.com/abatuhan20/password-generator",
     },
     {
-      name: "Job IT",
+      name: "Countdown Timer",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "Example site for how much time left for the new year.",
       tags: [
         {
-          name: "react",
+          name: "HTML",
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
+          name: "CSS",
           color: "green-text-gradient",
         },
         {
-          name: "scss",
+          name: "JavaScript",
           color: "pink-text-gradient",
         },
       ],
-      image: jobit,
-      source_code_link: "https://github.com/",
+      image: countdown,
+      source_code_link: "https://github.com/abatuhan20/countdown-timer",
     },
     {
-      name: "Trip Guide",
+      name: "Movie App",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "It shows popular movies and has a search bar and description functionality. Also it uses TheMovieDB API.",
       tags: [
         {
-          name: "nextjs",
+          name: "HTML",
           color: "blue-text-gradient",
         },
         {
-          name: "supabase",
+          name: "CSS",
           color: "green-text-gradient",
         },
         {
-          name: "css",
+          name: "JavaScript",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "TheMovieDB API",
+          color: "orange-text-gradient",
+        },
+      ],
+      image: movie,
+      source_code_link: "https://github.com/abatuhan20/movie-app",
+    },
+    {
+      name: "Recipe App",
+      description:
+        "Shows recipes with descriptions also you are able to search your favorite food and add it to your favourite list. It uses TheMealDB API",
+      tags: [
+        {
+          name: "HTML",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "CSS",
+          color: "green-text-gradient",
+        },
+        {
+          name: "JavaScript",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "TheMealDB API",
+          color: "orange-text-gradient",
+        },
+      ],
+      image: recipe,
+      source_code_link: "https://github.com/abatuhan20/recipe-app",
+    },
+    {
+      name: "Github App",
+      description:
+        "You can search Github Profiles and see their info, repos.",
+      tags: [
+        {
+          name: "HTML",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "CSS",
+          color: "green-text-gradient",
+        },
+        {
+          name: "JavaScript",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "Github API",
+          color: "orange-text-gradient",
+        },
+      ],
+      image: githubapp,
+      source_code_link: "https://github.com/abatuhan20/github-app",
+    },
+    {
+      name: "Drawing App",
+      description:
+        "Simple app for drawing onto a canvas. You can change your brush size and color, clean the canvas as well. ",
+      tags: [
+        {
+          name: "HTML",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "CSS",
+          color: "green-text-gradient",
+        },
+        {
+          name: "JavaScript",
           color: "pink-text-gradient",
         },
       ],
-      image: tripguide,
-      source_code_link: "https://github.com/",
+      image: drawing,
+      source_code_link: "https://github.com/abatuhan20/drawing-app",
     },
   ];
   

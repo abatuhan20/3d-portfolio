@@ -15,13 +15,14 @@ const ExperienceCard = ({experience}) => {
     contentStyle={{ background: '#1d1836', color:'#fff'}}
     contentArrowStyle={{ borderRight: '7px solid #232631'}}
     date={experience.date}
-    iconStyle={{ background: experience.iconBg }}
+    iconStyle={{ background: '#fff'}}
+    // experience.iconBg
     icon ={
       <div className="flex justify-center items-center w-full h-full">
         <img
           src={experience.icon}
           alt={experience.company_name}
-          className="w-[60%] h-[60%] object-contain"
+          className="w-[80%] h-[80%] object-contain"
           />
       </div>
      }
@@ -53,7 +54,7 @@ const Experience = () => {
      {/* Yazının animasyonlu gelmesine yarıyo */}
       <motion.div variants={textVariant()}>
         <p className={styles.sectionSubText}>What I have done so far</p>
-        <h2 className={styles.sectionHeadText}>Work Experience</h2>
+        <h2 className={styles.sectionHeadText}>Education & Experience</h2>
       </motion.div>
 
       <div className="mt-20 flex flex-col">

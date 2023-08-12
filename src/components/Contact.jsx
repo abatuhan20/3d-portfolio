@@ -28,8 +28,12 @@ const Contact = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
+    
+    if(form.name=="" || form.email=="" || form.message=="") {
+      alert("You need to fill the form correctly!");
+    }
+    else {
     setLoading(true);
-  
     emailjs.send(
     'service_ci3utdo',
     'template_e46xvqr',
@@ -58,6 +62,7 @@ const Contact = () => {
       alert('Something went wrong.')
     })
   }
+}
 
   return (
     <div className="xl:mt-12 xl:flex-row flex-col-reverse flex gap-10 overflow-hidden">
